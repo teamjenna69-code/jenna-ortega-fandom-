@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Register for the unofficial Jenna Ortega Fandom community.">
+  <title>Register — Jenna Ortega Fandom</title><link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header"><a class="brand" href="index.html">Jenna Ortega <span>Fandom</span></a><nav><a href="index.html">Home</a><a href="about.html">About</a><a href="gallery.html">Gallery</a><a class="nav-button" href="register.html">Join the Fandom</a></nav></header>
+<main class="page">
+  <section class="form-wrap">
+    <div><p class="eyebrow">JOIN THE COMMUNITY</p><h1>Create your fan profile.</h1><p>Use the form below to try the registration experience. This static version does not store submissions until you connect it to a form service or backend.</p></div>
+    <form id="registerForm">
+      <label for="name">Display name</label><input id="name" name="name" type="text" required maxlength="60" autocomplete="nickname" placeholder="Your fan name">
+      <label for="email">Email address</label><input id="email" name="email" type="email" required autocomplete="email" placeholder="you@example.com">
+      <label for="country">Country</label><input id="country" name="country" type="text" maxlength="60" autocomplete="country-name" placeholder="Your country">
+      <label class="check"><input type="checkbox" required> I understand this is an unofficial fan community.</label>
+      <button class="button" type="submit">Create Fan Profile</button>
+      <p id="message" class="success" role="status" aria-live="polite"></p>
+    </form>
+  </section>
+</main>
+<footer><p>© 2026 Jenna Ortega Fandom · Unofficial fan-made website.</p><a href="index.html">Home</a></footer>
+<script>
+document.getElementById('registerForm').addEventListener('submit', function(e) {
+  e.preventDefault();
+  document.getElementById('message').textContent = 'Thanks for joining the fandom! This demo form is ready to connect to a real form service or backend.';
+  this.reset();
+});
+</script>
+</body>
+</html>
