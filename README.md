@@ -1,4 +1,4 @@
-# Jenna Ortega Fandom
+# Jenna Ortega Fan Connect
 
 An private, static website for Jenna Ortega fans.
 
