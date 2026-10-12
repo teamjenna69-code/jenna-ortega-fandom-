@@ -1,6 +1,6 @@
-# Jenna Ortega Fan Connect
+# Taylor Kinney Fan Connect
 
-An private, static website for Jenna Ortega fans.
+An private, static website for Taylor Kinney fans.
 
 ## Pages
 - `index.html` — home page
