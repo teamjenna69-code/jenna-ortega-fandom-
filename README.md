@@ -1,6 +1,6 @@
 # Jenna Ortega Fandom
 
-An unofficial, fan-made static website for Jenna Ortega fans.
+An private, static website for Jenna Ortega fans.
 
 ## Pages
 - `index.html` — home page
